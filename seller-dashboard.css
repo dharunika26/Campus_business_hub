@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #ADEBB3;
+}
+
+/* Layout */
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: #4A4A4A;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #5f5f5f;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+    background: #ADEBB3;
+    color: black;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 30px;
+    margin-left:20px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #4A4A4A;
+}
+
+/* Cards */
+.card {
+    background:#4A4A4A;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    box-shadow: 0 8px 20px rgba(238, 237, 237, 0.1);
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #ADEBB3;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+}
+
+.stat-card span {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #4A4A4A;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ADEBB3;
+    color: black;
+}
+
+/* Product list */
+.product-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}
+
+/* Top Bar */
+.topbar {
+    width: 100px;
+    height: 55px;
+    /* background: #4A4A4A; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  30px;
+}
+
+.logout-btn {
+    background: #4A4A4A;
+    color: black;
+    border: none;
+    padding: 8px ;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background: white;
+}
+
